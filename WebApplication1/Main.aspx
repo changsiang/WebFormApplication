@@ -15,9 +15,7 @@
         <br />
         <asp:Button ID ="Button3" runat="server" Text="Button" OnClick="Button3_Click" />
         <br />
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-        <br />
-        <asp:Label ID="Label2" runat="server" Text="Hello World 2"></asp:Label>    
+        <asp:Label ID="Label1" runat="server" Text="Hello World"></asp:Label>    
     </div>
         <asp:ImageMap ID="ImageMap1" runat="server" ImageUrl="http://kiong.com/sadip/aspnet/03/singapore-map.jpg">
             <asp:CircleHotSpot AlternateText="CCK"
