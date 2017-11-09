@@ -99,7 +99,13 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\dipsa45changsiangaspnet - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\dipsa45changsiangaspnet - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\WebApplication120171108050515.pubxml" />
+    <Content Include="sam2.aspx" />
+    <Content Include="sam2.html" />
+    <Content Include="sam1.aspx" />
+    <Content Include="sam1.html" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -128,6 +134,20 @@
       <DependentUpon>Main.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sam2.aspx.cs">
+      <DependentUpon>sam2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sam2.aspx.designer.cs">
+      <DependentUpon>sam2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sam1.aspx.cs">
+      <DependentUpon>sam1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sam1.aspx.designer.cs">
+      <DependentUpon>sam1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
