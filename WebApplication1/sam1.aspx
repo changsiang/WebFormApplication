@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="sam1.aspx.cs" Inherits="WebApplication1.sam1" %>
 
 <!DOCTYPE html>
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
