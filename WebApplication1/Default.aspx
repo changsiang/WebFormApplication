@@ -10,17 +10,22 @@
     <form id="form1" runat="server">
         <div>
             <h1>Derek's ASP.NET Lecture</h1>
-            <br />
+            <p><i>Source code is available on my <a href="https://github.com/changsiang/WebFormApplication/tree/master/WebApplication1">GitHub</a> repository</i></p><br />
+
             <h2>Day 1 Demostration</h2>
             <br />
-            <p><a href="sam1.html">Sample 1: Form "GET"</a></p>
+            <ul>
+            <li><a href="sam1.html">Sample 1: Form "GET"</a></li>
             <br />
-            <p><a href="sam2.html">Sample 2: Form "POST"</a></p>
+            <li><a href="sam2.html">Sample 2: Form "POST"</a></li>
             <br />
-            <p><a href="Main.aspx">Button and GridView Demostration</a></p>
+            <li><a href="Main.aspx">Button and GridView Demostration</a></li>
+            </ul>
             <br />
             <h2>Day 2 Demostration</h2>
-            <p><a href="Main2.aspx">ImageMap, AdRotator Demostration</a></p>
+            <ul>
+            <li><a href="Main2.aspx">ImageMap, AdRotator Demostration</a></li>
+            </ul>
             <p>
             <asp:Label ID="label1" runat="server" Text="" OnLoad="Page_Load"></asp:Label>
             </p>

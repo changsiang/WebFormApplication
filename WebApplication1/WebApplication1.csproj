@@ -104,6 +104,7 @@
     <None Include="Properties\PublishProfiles\dipsa45changsiangaspnet - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\dipsa45changsiangaspnet - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\WebApplication120171108050515.pubxml" />
+    <Content Include="PostbackDemo.aspx" />
     <Content Include="sam2.aspx" />
     <Content Include="sam2.html" />
     <Content Include="sam1.aspx" />
@@ -148,6 +149,13 @@
     </Compile>
     <Compile Include="Main2.aspx.designer.cs">
       <DependentUpon>Main2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PostbackDemo.aspx.cs">
+      <DependentUpon>PostbackDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PostbackDemo.aspx.designer.cs">
+      <DependentUpon>PostbackDemo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sam2.aspx.cs">
