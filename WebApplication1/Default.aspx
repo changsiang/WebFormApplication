@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1>Derek's ASP.NET Lecture</h1>
+            <h1>Chang Siang's ASP.NET Notebook</h1>
             <p><i>Source code is available on my <a href="https://github.com/changsiang/WebFormApplication/tree/master/WebApplication1">GitHub</a> repository</i></p>
             <br />
 
@@ -37,11 +37,16 @@
                     <img src="Images/GitHub-Mark.png" width="50" height="50" /><a href="https://github.com/changsiang/FoodStallDSVersion"><strong>Source Code</strong></a>
                 </li>
             </ul>
-            <p>
-                <asp:Label ID="label1" runat="server" Text="" OnLoad="Page_Load"></asp:Label>
-            </p>
+            <p></p>
+            <div id="demo">
+                <script>
+                    document.getElementById("demo").innerHTML = "Page Generated On: " + Date();
+                </script>
+                <asp:Label ID="label2" runat="server" Text="" OnLoad="Page_Load"></asp:Label>
 
+            </div>
         </div>
     </form>
+
 </body>
 </html>

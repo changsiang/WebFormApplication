@@ -11,10 +11,10 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string dt = DateTime.Now.ToString();
             string ip = Context.Request.UserHostAddress.ToString();
-            string isp = Context.Request.Browser.Browser.ToString();
-            label1.Text = "Page Generated on: " + dt + " from " + ip + " Using: " + isp;
+            string browser = Context.Request.Browser.Browser.ToString();
+            label2.Text = " from " + ip + " using " + browser;
+
         }
     }
 }
