@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Default.aspx" title="Main Page"  description="Content Page">
+        <siteMapNode url="sam1.html" title="Form 'GET'"  description="Form 'GET'" />
+        <siteMapNode url="sam2.html" title="Form 'POST'"  description="Form 'POST'" />
+      <siteMapNode url="Main.aspx" title="Button and GridView" description="Demostrate ASP buttons and GridView"/>
+      <siteMapNode url="Main2.aspx" title="ImageMap and AdRotator" description="ImageMap and AdRotator function"/>
+      <siteMapNode url="day3.aspx" title="ViewState Demostration" description="Demostration of ASP.NET ViewState function"/>
+    </siteMapNode>
+</siteMap>

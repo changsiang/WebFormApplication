@@ -24,7 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <ApplicationInsightsResourceId />
+    <ApplicationInsightsResourceId>/subscriptions/96826112-e6fc-4b23-8fce-58757cf8f70e/resourcegroups/Default-ApplicationInsights-EastUS/providers/microsoft.insights/components/WebApplication1</ApplicationInsightsResourceId>
     <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -96,13 +96,31 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\w3.css" />
+    <Content Include="day3.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\11470507.png" />
     <Content Include="Images\GitHub-Mark.png" />
+    <Content Include="Images\restaurant_icons.png" />
     <Content Include="Main2.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="MasterPage.Master" />
     <None Include="Properties\PublishProfiles\dipsa45changsiangaspnet - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\dipsa45changsiangaspnet - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\WebApplication120171108050515.pubxml" />
@@ -111,13 +129,20 @@
     <Content Include="sam2.html" />
     <Content Include="sam1.aspx" />
     <Content Include="sam1.html" />
+    <None Include="scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\jquery-1.9.1.js" />
+    <Content Include="scripts\jquery-1.9.1.min.js" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
+    <Content Include="scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdsData.xml" />
@@ -128,6 +153,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="day3.aspx.cs">
+      <DependentUpon>day3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="day3.aspx.designer.cs">
+      <DependentUpon>day3.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -151,6 +183,13 @@
     </Compile>
     <Compile Include="Main2.aspx.designer.cs">
       <DependentUpon>Main2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="PostbackDemo.aspx.cs">
       <DependentUpon>PostbackDemo.aspx</DependentUpon>

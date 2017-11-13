@@ -11,10 +11,6 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string ip = Context.Request.UserHostAddress.ToString();
-            string browser = Context.Request.Browser.Browser.ToString();
-            label2.Text = " from " + ip + " using " + browser;
-
         }
     }
 }

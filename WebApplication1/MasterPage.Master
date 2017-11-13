@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="WebApplication1.MasterPage" %>
+
+<!DOCTYPE html>
+<link href="Content/bootstrap.css" rel="stylesheet" />
+<link href="Content/w3.css" rel="stylesheet" />
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style2 {
+            width: 608px;
+            height: 251px;
+        }
+
+        .auto-style4 {
+            width: 608px;
+            height: 90px;
+        }
+
+        .auto-style5 {
+            height: 90px;
+        }
+
+        .auto-style6 {
+            height: 251px;
+        }
+
+        .auto-style9 {
+            height: 34px;
+        }
+
+        .auto-style10 {
+            height: 90px;
+            width: 200px;
+        }
+
+        .auto-style11 {
+            height: 34px;
+            width: 83px;
+        }
+
+        .auto-style12 {
+            height: 251px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body style="background-image: url(Images/restaurant_icons.png)">
+    <form id="form1" runat="server">
+        <table style="width: 100%; table-layout: fixed">
+            <tr>
+                <td class="auto-style10 w3-center">
+                    <img src="Images/11470507.png" width="100" /></td>
+                <td class="auto-style4">
+                    <h1 class="text-center">Chang Siang's ASP.NET Notebook</h1>
+                    <p class="text-center">
+                        <i>Source code is available on my 
+                        <a href="https://github.com/changsiang/WebFormApplication/tree/master/WebApplication1">
+                            <strong>GitHub</strong></a> repository</i>
+                    </p>
+                </td>
+                <td class="auto-style5"></td>
+            </tr>
+            <tr>
+                <td class="auto-style11"></td>
+                <td class="auto-style9" colspan="2">
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style12" style="vertical-align: top">
+                    <asp:Menu ID="Menu1" DataSourceID="SiteMapDataSource1" runat="server" Orientation="Horizontal" CssClass="navbar-btn" DynamicMenuItemStyle-CssClass="dropdown" StaticSelectedStyle-CssClass="active">
+                        <LevelMenuItemStyles>
+                            <asp:MenuItemStyle CssClass="w3-btn w3-hover-orange w3-small w3-left-align" />
+                            <asp:MenuItemStyle CssClass="w3-btn w3-hover-orange w3-small w3-left-align w3-dropdown-hover w3-pale-yellow" />
+                        </LevelMenuItemStyles>
+                    </asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </td>
+                <td class="auto-style2">
+
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+
+                </td>
+                <td class="auto-style6"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    <div id="demo">
+                        <script>
+                            document.getElementById("demo").innerHTML = "Page Generated On: " + Date();
+                        </script>
+                        <asp:Label ID="label2" runat="server" Text="" OnLoad="Page_Load"></asp:Label>
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

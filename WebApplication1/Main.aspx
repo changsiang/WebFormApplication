@@ -1,15 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Main.aspx.cs" Inherits="WebApplication1.Main" %>
-
-<!DOCTYPE html>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <h2>Buttons Demostration</h2>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/MasterPage.Master" CodeBehind="Main.aspx.cs" Inherits="WebApplication1.Main" %>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <h2>Buttons Demostration</h2>
     <p></p>
-    <form id="form1" runat="server">
     <div>
         <input id="Button1" type="button" value="button" />
         <br />
@@ -37,7 +29,7 @@
                 <asp:BoundField DataField="CategoryName" HeaderText="CategoryName" SortExpression="CategoryName" />
             </Columns>
         </asp:GridView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:changsiangdipsadbConnectionString %>" SelectCommand="SELECT * FROM [Alphabetical List of Products]"></asp:SqlDataSource>
-    </form>
-</body>
-</html>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+            ConnectionString="<%$ ConnectionStrings:changsiangdipsadbConnectionString %>" 
+            SelectCommand="SELECT * FROM [Alphabetical List of Products]"></asp:SqlDataSource>
+</asp:Content>
