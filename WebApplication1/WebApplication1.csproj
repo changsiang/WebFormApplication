@@ -101,7 +101,9 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\w3.css" />
-    <Content Include="day3.aspx" />
+    <Content Include="sessionstate.aspx" />
+    <Content Include="sessionstate2.aspx" />
+    <Content Include="viewstate.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\11470507.png" />
@@ -153,12 +155,26 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="day3.aspx.cs">
-      <DependentUpon>day3.aspx</DependentUpon>
+    <Compile Include="sessionstate.aspx.cs">
+      <DependentUpon>sessionstate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="day3.aspx.designer.cs">
-      <DependentUpon>day3.aspx</DependentUpon>
+    <Compile Include="sessionstate.aspx.designer.cs">
+      <DependentUpon>sessionstate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sessionstate2.aspx.cs">
+      <DependentUpon>sessionstate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sessionstate2.aspx.designer.cs">
+      <DependentUpon>sessionstate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewstate.aspx.cs">
+      <DependentUpon>viewstate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewstate.aspx.designer.cs">
+      <DependentUpon>viewstate.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

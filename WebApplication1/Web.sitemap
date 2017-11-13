@@ -5,6 +5,7 @@
         <siteMapNode url="sam2.html" title="Form 'POST'"  description="Form 'POST'" />
       <siteMapNode url="Main.aspx" title="Button and GridView" description="Demostrate ASP buttons and GridView"/>
       <siteMapNode url="Main2.aspx" title="ImageMap and AdRotator" description="ImageMap and AdRotator function"/>
-      <siteMapNode url="day3.aspx" title="ViewState Demostration" description="Demostration of ASP.NET ViewState function"/>
+      <siteMapNode url="viewstate.aspx" title="ViewState Demostration" description="Demostration of ASP.NET ViewState function"/>
+      <siteMapNode url="sessionstate.aspx" title="SessionState Demo" description="Demostration of ASP.NET SessionState function"/>
     </siteMapNode>
 </siteMap>
