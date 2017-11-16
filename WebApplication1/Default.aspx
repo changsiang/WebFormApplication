@@ -14,6 +14,10 @@
             <ul>
                 <li><a href="Main2.aspx">ImageMap, AdRotator Demostration</a></li>
             </ul>
+            <h2>Using Azure SQL Db for ASP.NET User Authantication</h2>
+            <ul>
+                <li><a href="https://github.com/twright-msft/azure-content/blob/master/articles/app-service-web/web-sites-dotnet-deploy-aspnet-mvc-app-membership-oauth-sql-database.md">Create an ASP.NET MVC app with auth and SQL DB and deploy to Azure App Service</a></li>
+            </ul>
             <br />
             <h2>Workshop 1 (Food Stall)</h2>
             <ul>
